@@ -1,0 +1,140 @@
+/* This file contains the CSS styles for the navigation bar and buttons */
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-shrink: 5;
+    border: 1px solid #ffffff;
+    background: #04afec;
+    background-image: -webkit-linear-gradient(to top, #04afec, #c1e0eb);
+    background-image: -moz-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: -ms-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: -o-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: radial-gradient(circle, #04afec, #c1e0eb);
+    -webkit-box-shadow: 0px 2px 6px #666666;
+    -moz-box-shadow: 0px 2px 6px #666666;
+    box-shadow: 0px 2px 6px #666666;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    height: auto;
+    border-radius: 3px;
+  }
+  
+  .ico{
+    background: #04afec;
+  background-image: -webkit-linear-gradient(top, #04afec, #0044aa);
+  background-image: -moz-linear-gradient(top, #04afec, #0044aa);
+  background-image: -ms-linear-gradient(top, #04afec, #0044aa);
+  background-image: -o-linear-gradient(top, #04afec, #0044aa);
+  background-image: linear-gradient(to bottom, #04afec, #0044aa);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px #666666;
+    -webkit-box-shadow: 0px 2px 6px #666666;
+    -moz-box-shadow: 0px 2px 6px #666666;
+    box-shadow: 0px 2px 6px #666666;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+  }
+
+  .btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #b0dfff);
+    background-image: -moz-linear-gradient(top, #3498db, #b0dfff);
+    background-image: -ms-linear-gradient(top, #3498db, #b0dfff);
+    background-image: -o-linear-gradient(top, #3498db, #b0dfff);
+    background-image: linear-gradient(to bottom, #3498db, #b0dfff);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px #666666;
+    -webkit-box-shadow: 0px 2px 6px #666666;
+    -moz-box-shadow: 0px 2px 6px #666666;
+    box-shadow: 0px 2px 6px #666666;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 15px;
+    padding: 6px 40px 6px 40px;
+    border-top: solid #0065b3 1px;
+    border-right: solid #007fe0 1px;
+    border-bottom: solid #587385 1px;
+    border-left: solid #007fe0 1px;
+    text-decoration: none;
+  }
+  
+  .btnunsel {
+    background: #d4d4d4;
+    background-image: -webkit-linear-gradient(top, #d4d4d4, #e8f6ff);
+    background-image: -moz-linear-gradient(top, #d4d4d4, #e8f6ff);
+    background-image: -ms-linear-gradient(top, #d4d4d4, #e8f6ff);
+    background-image: -o-linear-gradient(top, #d4d4d4, #e8f6ff);
+    background-image: linear-gradient(to bottom, #d4d4d4, #e8f6ff);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px #666666;
+    -webkit-box-shadow: 0px 2px 6px #666666;
+    -moz-box-shadow: 0px 2px 6px #666666;
+    box-shadow: 0px 2px 6px #666666;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 15px;
+    padding: 6px 40px 6px 40px;
+    border-top: solid #98a7b3 1px;
+    border-right: solid #a2c5de 1px;
+    border-bottom: solid #587385 1px;
+    border-left: solid #587385 1px;
+    text-decoration: none;
+  }
+  
+  .btnunsel:hover {
+    background: #04afec;
+    background-image: -webkit-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: -moz-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: -ms-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: -o-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: linear-gradient(to bottom, #04afec, #c1e0eb);
+    text-decoration: none;
+  }
+  
+  
+  .btnsel {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #b0dfff);
+    background-image: -moz-linear-gradient(top, #3498db, #b0dfff);
+    background-image: -ms-linear-gradient(top, #3498db, #b0dfff);
+    background-image: -o-linear-gradient(top, #3498db, #b0dfff);
+    background-image: linear-gradient(to bottom, #3498db, #b0dfff);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px #666666;
+    -webkit-box-shadow: 0px 2px 6px #666666;
+    -moz-box-shadow: 0px 2px 6px #666666;
+    box-shadow: 0px 2px 6px #666666;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 15px;
+    padding: 6px 40px 6px 40px;
+    border-top: solid #0065b3 1px;
+    border-right: solid #007fe0 1px;
+    border-bottom: solid #587385 1px;
+    border-left: solid #007fe0 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #04afec;
+    background-image: -webkit-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: -moz-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: -ms-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: -o-linear-gradient(top, #04afec, #c1e0eb);
+    background-image: linear-gradient(to bottom, #04afec, #c1e0eb);
+    text-decoration: none;
+  }
